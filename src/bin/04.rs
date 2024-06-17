@@ -14,7 +14,7 @@ pub fn part_one(input: &str) -> Option<u32> {
             sum+=u32::pow(2,count-1);
         }
     }
-    println!("{}", sum);
+    // println!("{}", sum);
     Some(sum)
 }
 
@@ -49,7 +49,7 @@ pub fn part_two(input: &str) -> Option<u32> {
         card_count.pop();
     }
     let sum = card_count.into_iter().sum();
-    println!("{}", sum);
+    // println!("{}", sum);
     Some(sum)
 }
 
